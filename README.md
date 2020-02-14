@@ -14,10 +14,14 @@ Core:
   1. Dark Mode
   2. Functional App ie. launches, resources loaded correctly
   3. Basic STEM separation
+
 Reach:
+
   4. GPU processing support
   5. Batch job
+
 Moon:
+
   6. Nice interface
   7. Training in app
   8. Integration with other Machine Learning, Database resources
