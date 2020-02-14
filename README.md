@@ -15,12 +15,16 @@ Core:
   2. Functional App ie. launches, resources loaded correctly
   3. Basic STEM separation
 
+
 Reach:
+
 
   4. GPU processing support
   5. Batch job
 
+
 Moon:
+
 
   6. Nice interface
   7. Training in app
@@ -38,16 +42,22 @@ Development Timeline:
 
 ## Current Road Map
   1. Learn Visual Studio 2017
-    - Feb - Mid March
+     - Feb - Mid March
+
   2. App building basics on Windows platform
-    - Mid March - May
+     - Mid March - May
+
   3. Specific System resource access via the app
-    - May - June
+     - May - June
+
   4. Incremental build of functions and integration
-    - June - September
+     - June - September
+
   7. Testing
-    - September
+     - September
+
   8. Build
-    - November
+     - November
+
   9. Release
-    - Q1 2021
+     - Q1 2021
