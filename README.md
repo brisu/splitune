@@ -1,45 +1,49 @@
-# SpliTune : Music Spleeter
+# STEMMY : Music Spleeter
 [![forthebadge made-with-python](https://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 [![GitHub license](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=for-the-badge)](https://github.com/awesome-arjun11/splitune/blob/master/LICENSE) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge)](http://makeapullrequest.com)
-> An attempt at user friendly Desktop App for [deezer's Spleeter](https://github.com/deezer/spleeter). Splitune Allows separating Vocals and instruments. It can split vocals,drums,piano,bass and other accompaniment based on pretrained models.
+> An attempt at user-friendly Desktop App for [deezer's Spleeter](https://github.com/deezer/spleeter). STEMMY aims to bring the function of Spleeter closer to the user than ever.
+It will probably work, but there is a high uncertainty pertaining to its fate.
 
-## Demo Video:
-  
+This is the fork that aims to build upon the portable GUI to try and build the interface
+into a stand alone app. Including options of processing the STEMS through CPU as well as
+GPU process support.
 
-  [![Splitune](https://i.imgur.com/s6mzIfM.png)](https://youtu.be/qyNRQZNBvGk "Splitune UI : click to see demo")
+## Aims:
+Core:
+  1. Dark Mode
+  2. Functional App ie. launches, resources loaded correctly
+  3. Basic STEM separation
+Reach:
+  4. GPU processing support
+  5. Batch job
+Moon:
+  6. Nice interface
+  7. Training in app
+  8. Integration with other Machine Learning, Database resources
 
-  >https://youtu.be/qyNRQZNBvGk
+
 
 ## Manual setup of models
   1. Download Models from [Spleeter releases](https://github.com/deezer/spleeter/releases).
-  2. Extract them in **pretrained_models** directory. 
 
-      ```bash
-      Splitune
-      ├── pretrained_models
-      │   ├── 2stems
-      │   │   ├── model.data-####-####
-      │   │	├── model.meta
-      │   │   ├──	mode.index
-      │   │
-      │   ├── 4stems  
-      │   └── 5stems
-      ├── web
-      ├── node_modules
-      ├── app.py
-      ├── main.js
-      ├── requirements.txt
-      ├── README.md
-      ├── package.json
-      ├── package-lock.json
-      └── .gitignore
-      ```
-              
-## [Releases](https://github.com/awesome-arjun11/splitune/releases/)
-  1. [Alpha - Portable - v0.1](https://github.com/awesome-arjun11/splitune/releases/tag/v0.1-alpha)
+## [Releases] (Up coming)
+Development Timeline:
+  1. 13.02.2020 Project conception
 
-## To Do List
- 1. Increase download speed.
- 2. MonkeyPatch dependencies for PyInstaller issues.
- 3. Jinja Templates instead of current Hardcoded HTML.
+
+## Current Road Map
+  1. Learn Visual Studio 2017
+    - Feb - Mid March
+  2. App building basics on Windows platform
+    - Mid March - May
+  3. Specific System resource access via the app
+    - May - June
+  4. Incremental build of functions and integration
+    - June - September
+  7. Testing
+    - September
+  8. Build
+    - November
+  9. Release
+    - Q1 2021
